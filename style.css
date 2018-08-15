@@ -1,0 +1,57 @@
+body{
+    background-color: green;
+}
+
+/*# para ID
+  . para clase*/
+
+#list1 {
+    display: none;
+}
+
+#myHeader{
+    /*margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 60px;*/
+    margin: 50px;
+}
+
+h1{
+    color: #03A9F4
+}
+
+#myContent{
+    margin: auto;
+    background-color:blue;
+    width: 500px;    
+}
+
+#lateral1{
+    width: 300px; 
+    align-content: flex-start;
+}
+
+#lateral2{
+    align-content: flex-end;
+}
+
+ul li{
+    margin: 10px;
+    padding: 5px;
+    display: inline-block; /*Alinear*/
+    cursor: pointer;
+    border-radius: 5px;  /*Borde redondeado*/
+}
+
+ul li:hover{
+    background-color: blue; /*materialpalette.com*/
+    transition-duration: 3s;
+}
+
+.list2{
+    background-color:blue;
+}
+
+.contenedor1{
+    color: white;
+}
